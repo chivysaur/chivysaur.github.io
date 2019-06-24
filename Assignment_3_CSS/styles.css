@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1532117364815-720cd35ff6e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
+    background-size: auto;
+    background-repeat: repeat;
+    background-color: #ffe6e6;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Success! */
+/*so for the pink colored ones like 'h1' and so they are called selectors */
+/*for the things in the brackets are called Declarations. and the color: is called property while the thing next to it is called value.
+in this hw i need 6 of each selector and declarations*/
+h1, h2, h3 {
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    color:#cc0000;
+}
+
+.bloodred {
+   color: #cc0000;
+}
+
+
+#list, #foot {
+    color:darkblue;
+}
+
+
+h1 {
+  font-size: 50px;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+  text-align: center;
+}
+
+p, ul {
+  font-size: 40px;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+}
+tr{
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    font-size: 20px;
+    font-weight: bold}
+
+/* ---------------------------------------------------------------------- */
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: mediumorchid;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
