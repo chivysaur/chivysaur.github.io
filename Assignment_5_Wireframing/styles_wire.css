@@ -1,0 +1,110 @@
+body {
+    /*background-image: url("food_logo.JPG");*/
+    background-size: auto;
+    background-repeat: repeat;
+    background-color: #ffe6e6;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+     }
+
+#header {
+            background-color: grey;
+            height: 80px;
+            padding:10px;
+            width: 100%;
+        } 
+/*so for the pink colored ones like 'h1' and so they are called selectors */
+/*for the things in the brackets are called Declarations. and the color: is called property while the thing next to it is called value.
+in this hw i need 6 of each selector and declarations*/
+h1, h2, h3 ,h4{
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    color:#cc0000;
+}
+
+
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+div.relative {
+  position: relative;
+  left: 100px;
+  border: 3px solid #73AD21;
+}
+
+div.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+overflow: auto
+}
+
+
+div.txtcenter {
+  text-align: center;
+  border: 3px solid green;
+}
+
+div.txtcenterhead {
+  text-align: center;
+}
+
+img.pancake {
+  float: right;
+}
+img.left {
+  float: left;
+}
+
+.bloodred {
+   color: #cc0000;
+}
+
+
+#list, #foot {
+    color:darkblue;
+}
+
+
+h1 {
+  font-size: 50px;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+  text-align: center;
+}
+
+p, ul {
+  font-size: 40px;
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+}
+tr{
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    font-size: 20px;
+    font-weight: bold}
+
+/* ---------------------------------------------------------------------- */
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: mediumorchid;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

@@ -1,0 +1,138 @@
+body {
+        background-size: auto;
+        background-repeat: repeat;
+        background-color: #ffe6e6;
+        font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+    
+        margin:0;
+        padding:0;
+        } 
+
+h1, h2, h3 ,h4{
+    font-family: 'Amatic SC', 'Annie Use Your Telescope',sans-serif;
+    
+}
+#header {
+            background-color: #ff66a3;
+            height: 80px;
+            padding:10px;
+            width: 100%;
+    
+        } 
+       
+#logo {   
+            margin-left: 20px;
+    color:#ffe6f0;
+    font-size: 20px;
+        } 
+       
+#navbar {
+            position:absolute;
+            right: 25px;
+            top: 20px;
+        }  
+       
+#navbar ul {
+            list-style-type:none;
+        }
+
+#navbar li {
+            display: inline;
+            padding-left: 2em;       
+       }
+    
+#content {
+           margin:0;
+           padding:0;
+           width:100%;
+        border-radius: 10px;
+       }
+       
+#bannerimage {
+           position: relative;    
+       }
+       
+#bannerimage img {
+           height:auto;
+           width:100%;
+       }   
+       
+#buyme {
+           position:absolute;
+           width: 30%;
+           text-align: center;
+           top: 40%;
+           left: 35%;;
+           background-color: #ff66a3;
+           z-index: 100;
+        border-radius: 10px;
+       }
+
+#txtbox {
+           position:absolute;
+           text-align: center;
+           top: 40%;
+           left: 35%;;
+        background-color:#ffe6e6;
+           z-index: 100;
+        left:15%;
+        width:70%;
+        border-radius: 10px;
+       }
+       
+#textwrapper {
+           display:block;
+           position:relative;
+           left:15%;
+           width:70%;
+        border-radius: 10px;
+       }
+       
+#footer {
+           background-color: #ff66a3;
+           height: 90px;
+           padding: 30px;
+           width: 100%;
+           top: 3em;
+           position: relative;
+
+       }
+       
+#socialicons {
+           width: 90px;
+           height: auto;
+           margin: 0 auto;
+           padding: 10px;
+           left: -45px;
+           position: relative;
+       }
+       
+#socialicons img {
+           height:auto;
+           width:40px;
+           margin:0px;
+       } 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+border-radius: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 100;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
